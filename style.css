@@ -5,6 +5,14 @@
     color: green;
     font-family: 'Courier New', Courier, monospace;
 }
+.image-size{
+    align-items: center;
+}
+body{
+    width: 90%;
+    padding-left: 10%;
+    background-color:black;
+}
 .button-style{
     background-color: aquamarine;
     border: 5px;
@@ -16,4 +24,20 @@
 .ndfont-color{
 color: aqua;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav ul{
+    list-style-type: none;
+    padding: 5px;
+    color: green;
+
+}
+
+article{
+    margin-left: 0px;
+    border: 20px groove green;
+    padding: 20px;
+    text-align: justify;
+}
+.form-style{
+    border: 2px groove wheat;
 }
