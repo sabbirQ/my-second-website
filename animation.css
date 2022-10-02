@@ -1,0 +1,38 @@
+.animation{
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    margin: 200px;
+
+    animation: web-design 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    -webkit-animation: web-design 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+@keyframes web-design {
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: wheat;
+        width: 300px;
+        height: 500px;
+
+    }
+}
+
+
+@-webkit-keyframes web-design {
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: wheat;
+        width: 300px;
+        height: 500px;
+
+    }
+}
